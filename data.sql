@@ -24,3 +24,18 @@ insert into usr (e_mail, first_name, middle_name, last_name, birth_date, role_na
 ('lizayaenko@gmail.com','Камилла', 'Башировна', 'Тебуева', '1980-05-06', 'user' ),
 ('Teba02@mail.ru','Елизавета', 'Владимировна', 'Яковенко', '1960-04-06', 'user' );
 select * from usr;
+insert into group_member (ID, university_member_id, group_id, group_leader) values
+('2','17', '1', 'F'),
+('3','18', '2', 'T'),
+('4','19', '1', 'F'),
+('5','20', '2', 'F'),
+('6','21', '3', 'T'),
+('7','21', '4', 'F'),
+('8','22', '2', 'F'),
+('9','23', '2', 'T'),
+('10','24', '1', 'T'),
+('11','25', '1', 'T'),
+('12','26', '2', 'F'),
+('13','27', '3', 'T'),
+('14','28', '1', 'F'),
+('15','29', '1', 'F');
